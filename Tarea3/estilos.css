@@ -5,7 +5,62 @@
 }
 
 body{
-    background-color: blueviolet;
+    background-color: rgba(178, 36, 206, 0.877);
     display: block;
     margin: 8px;
+}
+
+table{
+    width: 100%;
+}
+
+h1{
+    font-size: 30px;
+}
+p{
+    font-size: 30px;
+    width: 100%;
+    margin: 0%;
+}
+
+.fontBlanco{
+    color: white;
+}
+.bordeOutset{
+    border-color: grey;
+    border-style: outset;
+    border-width: 10px;
+}
+.bordeLinea{
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.sinBottom{
+    margin-bottom: 0px;
+}
+.sinMargen{
+    border-width:  0px;
+}
+
+.rojo{
+    background-color: red;
+}
+.aqua{
+    background-color: aqua;
+}
+.morado{
+    background-color: blueviolet;
+}
+
+#amarillo{
+    background-color: yellow;
+}
+#blanco{
+    background-color: white;
+    margin: 3px;
+}
+#verde{
+    background-color: chartreuse;
 }
